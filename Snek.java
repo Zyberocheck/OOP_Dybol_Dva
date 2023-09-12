@@ -4,7 +4,7 @@ public class Snek extends Product {
 
     private String size;
 
-    public Snek (String name, String brand, double price, String size) {
+    public Snek(String name, String brand, double price, String size) {
         super(name, brand, price);
         this.size = size;
     }
@@ -14,8 +14,8 @@ public class Snek extends Product {
     }
 
     @Override
-    public String displayInfo(){
+    public String displayInfo() {
         return String.format("[Батончик шоколадный] %s - %s - %.2f - %s", name, brand, price, size);
     }
-    
+
 }
