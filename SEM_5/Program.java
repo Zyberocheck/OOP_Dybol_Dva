@@ -28,7 +28,7 @@ public class Program {
 
         DateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
         Scanner input = new Scanner(System.in);
-        
+
         System.out.print("\nВведите дату через '/' : ");
         String strDate = input.nextLine();
         Date date = formatter.parse(strDate);
